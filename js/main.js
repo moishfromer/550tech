@@ -5,3 +5,6 @@ console.log(mult);
 $('#click').on('click',function(){
     console.log('Ive been clicked');
 })
+
+
+$('#click').off('click');
